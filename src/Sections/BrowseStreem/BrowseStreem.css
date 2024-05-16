@@ -1,0 +1,84 @@
+.BrowseStreem-banner{
+  
+  margin-top: 70px;
+  padding: 0px 60px;
+}
+.BrowseStreem-header{
+  text-align: center;
+}
+.BrowseStreem-header h4 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.BrowseStreem-header span{
+  color: var( --primary-color);
+}
+.BrowseStreem-contents{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 60px;
+}
+.BrowseStreem-card {
+  width: calc(95% /3);
+  border: 1px solid #525151;
+  border-radius: 25px;
+  padding: 40px;
+}
+ 
+.BrowseStreem-card  img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.BrowseStreem-card h3{
+  font-size: 22px;
+  font-weight: 700px;
+}
+.BrowseStreem-card p {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 1.8;
+  color: #746e6e;
+}
+.BrowseStreem-card p span{
+  color: #fff;
+}
+.Stream-btn{
+  margin-left:50%;
+  margin-top: 20%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 600; 
+}
+
+
+@media screen and (max-width:1000px) {
+  .BrowseStreem-header h4{
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  .BrowseStreem-contents{
+    flex-direction: column;
+  }
+  .BrowseStreem-card{
+    width: 100%;
+  }
+  .BrowseStreem-card:nth-child(2) {
+    margin: 15px 0px;
+  }
+  .BrowseStreem-contents{
+    margin-top: 50px;
+  }
+}

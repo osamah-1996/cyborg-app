@@ -1,0 +1,85 @@
+.BrowesePopular-banner{
+  position: relative;
+  margin-top: 50px !important;
+  width: 90%;
+  padding: 20px 40px;
+  background-color: var(--black-color);
+  border-radius: 25px;
+  padding-bottom: 50px !important;
+}
+
+.BrowesePopular-header{
+  padding-top: 20px;
+}
+.BrowesePopular-header h4 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.BrowesePopular-header h4 span{
+  color: var(--primary-color);
+}
+.BrowesePopular-contents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.BrowesePopular-card img{
+  position: relative;
+  border-radius: 25px;
+  filter: brightness(80%);
+}
+.BrowesePopular-card-contents{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+.BrowesePopular-card-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+ 
+
+
+
+
+.BrowesePopular-btn {
+  position: absolute;
+  padding: 10px 20px;
+  top: 99%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.BrowesePopular-btn:hover{
+  background-color: #fff;
+  color: var(--primary-color);
+}
+
+@media screen and (max-width:1000px) {
+  .BrowesePopular-card:nth-child(2){
+    margin: 15px 0px;
+  }
+  .BrowesePopular-btn{
+    width: 60%;
+    margin-top: 10px;
+  }
+}

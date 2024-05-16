@@ -1,0 +1,14 @@
+.footer-warpp{
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+  /* padding-bottom: 15px; */
+}
+
+.footer-warpp h4{
+  font-size: 20px;
+  margin-bottom: 15px !important;
+}
+.footer-warpp p{
+  color: #E75E8D;
+}

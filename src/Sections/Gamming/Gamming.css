@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ 
+
+:root{
+  --black-color: #000;
+  --primary-color:#E75E8D;
+  --light-black:#27292a;
+}
+.gamming-banner{
+  position: relative;
+  margin-top: 80px !important;
+  width: 95%;
+  padding: 20px 40px;
+  background-color: var(--black-color);
+  border-radius: 25px;
+  padding-bottom: 50px !important;
+  margin: auto;
+}
+
+.gamming-header h4{
+  font-size: 36px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+
+.gamming-header h4 span{
+  color: var(--primary-color);
+}
+.gamming-card {
+  margin-top: 35px !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #27292a;
+}
+.gamming-card img {
+  border-radius: 25px;
+}
+ 
+.gamming-card .gamming-items h3{
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.1;
+}
+.gamming-card .gamming-items h3 span{
+  font-weight: 200 !important;
+  font-size: 14px;
+  color: #d1caca98;
+} 
+.gamming-card .gamming-items button{
+  padding: 10px 30px !important;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: 0;
+  border: 1px solid var(--primary-color);
+  color: #d1caca98;
+  cursor: pointer;
+}
+.gamming-buttons{
+  position: absolute;
+  padding: 10px 30px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #E75E8D;
+  border-radius: 25px;
+  top: 95%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.5s ease;
+}
+.gamming-buttons:hover{
+  color: #000;
+  background-color: #ffff;
+}
+
+@media screen and (max-width:1000px) {
+  .gamming-header h4{
+    font-size: 28px;
+  }
+  .gamming-card{
+    position: relative;
+    text-align: center;
+  }
+  .gamming-card .gamming-items{
+  margin-top: 50px;
+
+  }
+  .gamming-card img{
+    margin-top: 30px !important;
+  }
+}
